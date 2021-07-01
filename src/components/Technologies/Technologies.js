@@ -1,6 +1,7 @@
 import React from 'react';
 import { DiFirebase, DiReact} from 'react-icons/di';
 import { VscCode } from "react-icons/vsc";
+import { FiCloud } from "react-icons/fi";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -11,7 +12,6 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've learned with a range of technologies in the Programming languages like C, C++, JAVA, Python and in the web development world. I am gone through the version control system like GitHub.
-      From Back-end to Design
     </SectionText>
     <List>
       <ListItem>
@@ -41,6 +41,16 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
             C, C++, JAVA, PYTHON
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FiCloud size="3rem" />
+        <ListContainer>
+          <ListTitle>Cloud Platform</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Azure, Google Cloud
           </ListParagraph>
         </ListContainer>
       </ListItem>
